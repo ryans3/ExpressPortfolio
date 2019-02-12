@@ -22,9 +22,9 @@
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "Mongo and Mongoose Demo",
+  "description": "Express Portfolio made using MongoDB, ExpressJS, and NodeJS",
   "main": "server.js",
-  "author": "Tom Tsiliopoulos",
+  "author": "Ryan Sterling",
   "license": "ISC",
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CentennialCollege/COMP308-W2019-Lesson4B.git"
+    "url": "git+https://github.com/ryans3/ExpressPortfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/CentennialCollege/COMP308-W2019-Lesson4B/issues"
+    "url": "https://github.com/ryans3/ExpressPortfolio"
   },
-  "homepage": "https://github.com/CentennialCollege/COMP308-W2019-Lesson4B#readme"
+  "homepage": "https://github.com/ryans3/ExpressPortfolio#readme"
 }
