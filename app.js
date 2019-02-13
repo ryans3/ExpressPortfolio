@@ -19,13 +19,18 @@ mongoDB.once('open', ()=> {
 
 let indexRouter = require('./routes/index');
 let contactRouter = require('./routes/contact');
-
+let servicesRouter = require('')
 
 let app = express();
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
+//USE OF STATIC IMAGES
+app.use(express.static('public'))
 
 app.use(logger('dev'));
 app.use(express.json());
