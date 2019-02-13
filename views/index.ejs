@@ -1,12 +1,17 @@
 <% include ./partials/header.ejs %>
 
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="display-4">Welcome to <%= title %></h1>
-        <% if (title == "Contact") { %>
-          <a class="btn btn-primary" href="/home" role="button">Submit</a>
-        <% } %>
-      </div>
-    </div>
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %></h1>
+    <% if (title == "Contact") { %>
+    <a class="btn btn-primary" href="/home" role="button">Submit</a>
+    <% } %>
+    <% if (title == "Services") { %>
+
+    <% include ./partials/v_services.ejs %>
+
+    <% } %>
+  </div>
+</div>
 
 <% include ./partials/footer.ejs %>
