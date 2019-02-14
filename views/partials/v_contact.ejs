@@ -1,17 +1,55 @@
+<!--
+Name of File: contact.ejs
+Name: Ryan Sterling
+Student Number: 300509648
+Date: Thursday, February 14, 2019
+-->
+
 <div class="container">
     <div class="row">
         <div class="col-md-offset-3 col-md-6">
-            <form>
+            <br><br><br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                How to contact me
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p> You can contact me via email: o12174164@nwytg.net</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <p>Please Enter your information here:</p>
+            <form action="/" method="GET">
                 First name:<br>
                 <input type="text" name="input_fName"><br>
                 Last name:<br>
-                <input type="text" name="input_lName">
+                <input type="text" name="input_lName"><br>
                 Address:<br>
                 <input type="text" name="input_addr"><br>
                 Contact Number:<br>
-                <input type="text" name="input_cnum">
+                <input type="text" name="input_cnum"><br>
                 Message:<br>
                 <input type="text" name="input_mess"><br>
+
+                <input type="submit" value="Press here">
             </form>
         </div>
     </div>

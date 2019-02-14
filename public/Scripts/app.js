@@ -1,3 +1,8 @@
+//Name of File: App.js
+//Name: Ryan Sterling
+//Student Number: 300509648
+//Date: Thursday, February 14, 2019
+
 // IIFE -- Immediately Invoked Function Expression
 (function(){
 

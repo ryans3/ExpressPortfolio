@@ -5,6 +5,10 @@ let contactSchema = mongoose.Schema({
     firstName: String,
     lastName: String,
     age: Number
+    //contact: Number,
+    //address: String,
+    //message: String
+
 },
 {
     collection: "first"
