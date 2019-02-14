@@ -5,6 +5,8 @@
     <h1 class="display-4">Welcome to <%= title %></h1>
     <% if (title == "Contact") { %>
     <a class="btn btn-primary" href="/home" role="button">Submit</a>
+
+    <!-- Services Partially-->
     <% } %>
     <% if (title == "Services") { %>
 
@@ -12,11 +14,21 @@
 
     <% } %>
 
+    <!-- Mission Statement-->
     <% if (title == "Home") { %>
 
-      <% include ./partials/v_missionstatement.ejs %>
-  
-      <% } %>
+    <% include ./partials/v_missionstatement.ejs %>
+
+    <% } %>
+
+    <!-- About Me-->
+    <% if (title == "About Me") { %>
+
+    <% include ./partials/v_aboutme.ejs %>
+
+    <% } %>
+
+
   </div>
 </div>
 
