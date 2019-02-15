@@ -1,1 +1,19 @@
+/*
+Name of File: index.ejs
+Name: Ryan Sterling
+Student Number: 300509648
+Date: Thursday, February 14, 2019
+*/
+
 /* custom css goes here */
+.display-4{
+    margin: 10px 0;
+    height: 100%;
+    font-size: 600%;
+    text-align: center;
+    text-decoration-style: wavy;
+}
+.figure-caption{
+    margin: 30px 0;
+    font-size: 200%;
+}
