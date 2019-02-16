@@ -4,6 +4,11 @@
  * Module dependencies.
  */
 
+//Name of File: App.js
+//Name: Ryan Sterling
+//Student Number: 300509648
+//Date: Thursday, February 14, 2019
+
 let app = require('./app');
 let debug = require('debug')('comp308-w2019-lesson3b:server');
 let http = require('http');
